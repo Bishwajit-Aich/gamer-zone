@@ -112,6 +112,37 @@ font-weight: 500;
     align-items: center;
 }
 
+/* Instant Download Section Styles */
+
+.card {
+  margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.gentleman-img{
+    width: 380px;
+    margin-left: 20px;
+}
+.talking-tom{
+    width: 200px;
+   position: relative;
+    bottom: 200px;
+}
+
+
+
+/* anytime section styles */
+
+.card-three{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 /* navbar responsive mobile Device */
 
@@ -148,6 +179,18 @@ font-weight: 500;
         margin-top: 20px;
         text-align: center;
     }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .card-three{
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 50px;
+    }
+
+   
 
 
 }
