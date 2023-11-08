@@ -30,6 +30,7 @@ padding: 10px;
 
 .navbar-item{
     display: flex;
+    gap: 20px;
    
 }
 
@@ -42,3 +43,16 @@ padding: 10px;
 
 /* navbar responsive mobile Device */
 
+@media screen and (max-width: 576px) {
+    .navbar-part{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .navbar-item{
+        flex-direction: column;
+        margin-top:20px ;
+    }
+
+
+}
