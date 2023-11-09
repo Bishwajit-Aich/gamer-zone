@@ -144,6 +144,28 @@ font-weight: 500;
 }
 
 
+/* Multiple Game section Styles */
+
+.multiple-game-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    padding: 20px;
+    gap: 20px;
+}
+
+.games-element:hover{
+    color: pink;
+    border: 2px solid pink;
+}
+
+.games-element{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /* navbar responsive mobile Device */
 
 @media screen and (max-width: 576px) {
@@ -188,6 +210,16 @@ font-weight: 500;
         flex-direction: column;
         margin-top: 50px;
         padding: 50px;
+    }
+
+    .multiple-game-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    }
+    .games-element{
+        flex-direction: column;
+        text-align: center;
     }
 
    
