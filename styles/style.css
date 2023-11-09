@@ -166,6 +166,32 @@ font-weight: 500;
     gap: 10px;
 }
 
+
+/* Footer Section Styles */
+
+.footer{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.footer-logo{
+    display: flex;
+}
+
+.story-element{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding-top: 20px;
+}
+
+.story-element ul{
+    
+    
+}
+
+
 /* navbar responsive mobile Device */
 
 @media screen and (max-width: 576px) {
@@ -221,6 +247,24 @@ font-weight: 500;
         flex-direction: column;
         text-align: center;
     }
+
+    .story-element{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      
+       
+    
+    }
+
+    .story-element p{
+       text-align: center;
+       padding: 20px;
+    }
+
+    .story-element ul{
+        text-align: center;
+        padding: 20px;
+     }
 
    
 
